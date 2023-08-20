@@ -1,0 +1,56 @@
+.footer{
+    position: absolute;
+    top:180rem;
+    margin-left:40rem;
+   
+   
+}
+.footer .question h1{
+    color: rgb(54, 54, 54);
+    font-weight: bolder;
+}
+
+.footer .email{
+   position: relative;
+   background-color:whitesmoke;
+    border-radius: 50px 50px 50px 50px;
+    padding:0.5rem;
+    gap:3rem;
+box-shadow: -15px -15px 200px rgba(0, 0, 0, 0.1),
+        15px 15px 150px rgba(0, 0, 0, 0.1);
+
+    
+}
+
+.form .eamilText{
+    
+    color: gray;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+    background-color: whitesmoke;
+    border: none;
+    outline: none; /*hyda la 7ata nsheel lfocous border le boytla3 
+    w2ta nekbos w2ta mana nektob bel input */
+
+}
+
+ .form .button{
+   background-color:#1e90ff;
+   width:25%;
+   padding:1rem;
+   font-size: 1rem;
+   color: white;
+    border-radius: 50px 50px 50px 50px;
+    border:1px solid #1e90ff;
+    position: absolute;
+    top: 1rem;
+    left:20rem;
+}
+
+  
+  
+ 
+
+ 
+  

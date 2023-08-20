@@ -1,0 +1,44 @@
+.intro{
+    width:70%;
+    height:100%;
+    padding-right:10rem;
+    margin-top:1rem;
+    padding-bottom:30rem;
+    border-radius: 20px;
+    background-image:url('../../img/Into-house.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 30%  bottom 50%;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:10rem;
+
+    
+   
+}
+
+.intro .intro-content{
+    position: absolute;
+    top:7rem;
+    left:2rem;
+}
+
+.intro .intro-content h1{
+    color: aliceblue;
+    font-weight: bolder;
+    font-size:3rem
+}
+
+.intro .intro-content  button{
+    width:100px;
+     height: 40px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #1e90ff;
+    color: white;
+    border: 1px solid #1e90ff;
+}
+

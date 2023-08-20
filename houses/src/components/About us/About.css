@@ -1,0 +1,113 @@
+.about{
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.left{
+    margin-top: 6rem;
+    margin-left:5rem;
+    
+   
+}
+
+.left .about-img{
+    background-image: url(../../img/about-house.jpg);
+    width:200%;
+    height:50%;
+    background-size: cover;
+    padding:6rem;
+    border-radius: 50px 10px 50px 50px;
+        /*(first value applies to top-left corner, second value applies to top-right corner, third value applies to bottom-right corner, 
+        and fourth value applies to bottom-left corner)*/
+    }
+
+.right{
+        display: flex;
+        flex-direction: column;
+       margin-left:15rem;
+       margin-top: 5rem;
+       
+      
+    }
+
+    .right .title{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+.right   .title h4{
+            color:#1e90ff;
+            font-size:1rem;
+           }
+
+.right  .title h1 {
+     color: rgb(31, 30, 30);
+     display: flex;
+     
+     }
+
+.right  .button button{
+    
+            width:110px;
+            height:30px;
+            border-radius: 20px;
+            font-size:1rem;
+            font-weight: bold;
+            background-color: #1e90ff;
+            color: white;
+            border: 1px solid #1e90ff;
+            padding-bottom:2rem;
+            padding-top: 1rem;
+            
+}
+
+@media screen and (max-width:1717px) {
+    .right{
+        margin-left:25rem;
+    }
+}
+
+@media screen and (max-width:1005px) {
+
+.about {
+        display: flex;
+        flex-direction: column;
+        gap:1px;
+}
+
+.right {
+    margin-left:10rem;
+    margin-top:2rem;
+}
+
+.right .title{
+    align-self: center;
+}
+
+.left .about-img {
+    background-image: url(../../img/about-house.jpg);
+    width:20%;
+    height:150%;
+    background-size: cover;
+    padding:10rem;
+   
+}
+
+.left {
+    
+    margin-left:20rem;
+
+}
+
+.right .title h4{
+    align-self: center;
+}
+
+.right{
+    justify-content: center;
+    align-items: center;
+    
+}
+}
